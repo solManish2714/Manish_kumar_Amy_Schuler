@@ -1,0 +1,13 @@
+sale_id,order_date,region,product_id,product_name,category,units_sold,unit_price_usd,gross_sales_usd,discount_usd,net_sales_usd,sales_channel,sales_rep
+SAL-10001,2026-01-03,West,P-201,Smart Desk Lamp,Home Office,24,49.99,1199.76,60.00,1139.76,Online,Amy Ross
+SAL-10002,2026-01-04,Central,P-188,Wireless Keyboard,Electronics,41,69.00,2829.00,120.00,2709.00,Retail,Chris Patel
+SAL-10003,2026-01-05,East,P-314,Portable Projector,Electronics,9,329.00,2961.00,150.00,2811.00,Marketplace,Liam Turner
+SAL-10004,2026-01-06,South,P-147,Ergonomic Chair,Furniture,12,279.00,3348.00,0.00,3348.00,Online,Nina Bell
+SAL-10005,2026-01-06,North,P-224,Noise Cancelling Headphones,Electronics,18,189.99,3419.82,220.00,3199.82,Retail,Olivia Grant
+SAL-10006,2026-01-08,West,P-117,Standing Desk,Furniture,7,599.00,4193.00,350.00,3843.00,Online,Marcus Hall
+SAL-10007,2026-01-09,East,P-451,USB Dock Station,Accessories,33,109.00,3597.00,110.00,3487.00,Distributor,Daniel Price
+SAL-10008,2026-01-10,South,P-164,Smart Whiteboard,Office Tech,5,1199.00,5995.00,500.00,5495.00,Enterprise,Grace Cole
+SAL-10009,2026-01-12,Central,P-332,Desk Organizer,Office Supplies,87,18.50,1609.50,70.00,1539.50,Online,Emma Scott
+SAL-10010,2026-01-14,West,P-509,Conference Camera,Electronics,11,459.00,5049.00,250.00,4799.00,Retail,Jacob Reed
+SAL-10011,2026-01-15,North,P-278,Laptop Stand,Accessories,52,39.99,2079.48,100.00,1979.48,Marketplace,Sophia Wood
+SAL-10012,2026-01-16,East,P-601,Monitor Light Bar,Office Tech,28,79.00,2212.00,80.00,2132.00,Online,Ethan Cooper

@@ -1,0 +1,13 @@
+registry_id,receipt_hash,receipt_file,expense_id,employee_id,merchant_normalized,receipt_date,amount,currency,category,invoice_reference,processing_status,processed_date,approved_reference,duplicate_group_id,ocr_confidence,source_channel,notes
+REG-0001,RCPT-A7C201,img_01.jpg,EXP-260201,EMP-104,PINEWOOD COFFEE,2026-02-12,11.74,USD,Meals & Beverages,ORD-67219,Processed,2026-02-13,APR-8820,DUP-041,0.99,Mobile Upload,Original coffee submission
+REG-0002,RCPT-A7C202,img_02.jpg,EXP-260210,EMP-104,RIVERFRONT HOTEL,2026-02-10,629.36,USD,Lodging,INV-762843,Processed,2026-02-11,APR-8816,DUP-088,0.98,Expense Portal,Hotel invoice already reimbursed
+REG-0003,RCPT-A7C203,img_04.jpg,EXP-260203,EMP-104,BISCUIT LOVE,2026-02-14,15.84,USD,Meals & Beverages,ORD-235448,Processed,2026-02-15,APR-8824,DUP-112,0.97,Mobile Upload,Handwritten approval accepted
+REG-0004,RCPT-A7C204,file_10.pdf,EXP-260205,EMP-104,NES,2026-02-11,118.50,USD,Utilities,NES-9912A,Processed,2026-02-12,APR-8809,DUP-155,1.00,PDF Upload,Utility reimbursement completed
+REG-0005,RCPT-A7C205,img_08.jpg,EXP-260168,EMP-104,BISCUIT LOVE,2026-02-02,21.48,USD,Meals & Beverages,ORD-229814,Processed,2026-02-03,APR-8764,DUP-097,0.96,Expense Portal,Prior meal approved
+REG-0006,RCPT-A7C206,file_15.pdf,EXP-260160,EMP-104,RIVERFRONT HOTEL,2026-01-27,614.12,USD,Lodging,INV-751998,Processed,2026-01-29,APR-8753,DUP-081,1.00,Email Intake,Historical hotel reimbursement
+REG-0007,RCPT-A7C207,file_16.pdf,EXP-260172,EMP-104,OFFICE DEPOT,2026-02-04,84.26,USD,Office Supplies,INV-OD-29018,Processed,2026-02-06,APR-8771,DUP-133,0.99,Portal Upload,Office supply reimbursement
+REG-0008,RCPT-A7C208,file_17.pdf,EXP-260176,EMP-104,AIRPORT TAXI,2026-02-05,48.00,USD,Transport,TRIP-77018,Processed,2026-02-08,APR-8778,DUP-177,0.95,Expense Portal,Travel expense accepted
+REG-0009,RCPT-A7C209,img_05.jpg,EXP-259984,EMP-082,LIBRARY BOOKSTORE,2026-01-19,35.76,USD,Office Supplies,POS-81946,Archived,2026-01-20,APR-8702,DUP-201,0.61,Manual Entry,Low OCR confidence historical sample
+REG-0010,RCPT-A7C210,img_01.jpg,EXP-260208,EMP-104,PINEWOOD COFFEE,2026-02-12,11.74,USD,Meals & Beverages,ORD-67219,Pending Duplicate Review,, ,DUP-041,0.99,Mobile Upload,Same receipt signature as REG-0001
+REG-0011,RCPT-A7C211,file_14.pdf,EXP-260155,EMP-104,AIRPORT TAXI,2026-01-20,42.00,USD,Transport,TRIP-76811,Processed,2026-01-22,APR-8748,DUP-176,0.98,Expense Portal,Reference transport reimbursement
+REG-0012,RCPT-A7C212,file_09.pdf,EXP-260206,EMP-104,SUNRISE FLOW YOGA,2026-02-01,97.23,USD,Wellness,YOGA-020126,Rejected,2026-02-02,,DUP-301,1.00,PDF Upload,Rejected by reimbursement policy

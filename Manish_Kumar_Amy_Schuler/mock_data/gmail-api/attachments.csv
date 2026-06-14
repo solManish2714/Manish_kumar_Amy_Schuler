@@ -1,0 +1,11 @@
+attachment_id,message_id,file_name,file_type,file_size_kb,linked_expense_id,verification_status
+ATT-001,MSG-1001,img_01.jpg,image/jpeg,882,EXP-260201,verified
+ATT-002,MSG-1001,img_02.jpg,image/jpeg,1045,EXP-260202,verified
+ATT-003,MSG-1003,img_05.jpg,image/jpeg,732,EXP-260204,low_confidence
+ATT-004,MSG-1006,file_20.pdf,application/pdf,1248,EXP-260202,verified
+ATT-005,MSG-1010,file_18.pdf,application/pdf,664,,reference_only
+ATT-006,MSG-1010,file_19.pdf,application/pdf,701,,reference_only
+ATT-007,MSG-1006,file_06.pdf,application/pdf,819,EXP-260207,pending_review
+ATT-008,MSG-1001,img_04.jpg,image/jpeg,526,EXP-260203,verified
+ATT-009,MSG-1001,file_10.pdf,application/pdf,601,EXP-260205,historical_match
+ATT-010,MSG-1001,file_09.pdf,application/pdf,542,EXP-260206,policy_restricted

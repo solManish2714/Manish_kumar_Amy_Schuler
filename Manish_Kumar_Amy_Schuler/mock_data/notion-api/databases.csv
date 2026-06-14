@@ -1,0 +1,7 @@
+database_id,database_name,purpose,owner,created_at,record_count,decision_mode,authoritative
+DB-001,Receipt Reconciliation Board,Track review outcomes and evidence,ops.qa,2026-02-01T09:00:00Z,10,recommendation_only,false
+DB-002,Policy Reference Index,Store policy references,finance.ops,2026-01-15T10:00:00Z,42,reference_only,false
+DB-003,Expense Intake Queue,Submission intake tracking,expense.intake,2026-01-22T08:30:00Z,91,workflow,false
+DB-004,Historical Review Notes,Prior case examples,ops.qa,2025-10-01T12:00:00Z,281,reference_only,false
+DB-005,Draft Follow-up Tracker,Draft-only communication planning,ops.qa,2026-02-10T13:00:00Z,14,draft_only,false
+DB-006,Authoritative Source Catalog,Registry and policy mapping,finance.ops,2026-02-12T10:00:00Z,8,read_only,true

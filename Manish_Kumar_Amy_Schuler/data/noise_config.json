@@ -1,0 +1,55 @@
+{
+"schema_version": "ui-config-3.4",
+"application": "Workspace Portal",
+"last_updated": "2026-02-11T08:42:19Z",
+"appearance": {
+"theme": "dark",
+"accent_color": "#4A78FF",
+"density": "comfortable",
+"sidebar_collapsed": false,
+"font_size": "medium"
+},
+"dashboard": {
+"default_view": "overview",
+"show_activity_feed": true,
+"show_announcements": false,
+"auto_refresh_seconds": 120,
+"cards_order": [
+"summary",
+"tasks",
+"calendar",
+"analytics"
+]
+},
+"notifications": {
+"desktop_enabled": true,
+"email_enabled": false,
+"sound_enabled": true,
+"quiet_hours": {
+"enabled": true,
+"start": "22:00",
+"end": "07:00"
+}
+},
+"workspace": {
+"recent_projects_limit": 10,
+"remember_filters": true,
+"enable_quick_actions": true,
+"compact_tables": false
+},
+"shortcuts": {
+"open_search": "Ctrl+K",
+"create_item": "N",
+"toggle_sidebar": "Ctrl+B",
+"open_settings": "Ctrl+,"
+},
+"experiments": {
+"enable_new_navigation": true,
+"smart_panels": false,
+"beta_widgets": true
+},
+"privacy": {
+"telemetry_enabled": false,
+"crash_reporting": true
+}
+}

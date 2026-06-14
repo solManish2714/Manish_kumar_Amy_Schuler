@@ -1,0 +1,13 @@
+message_id,channel_id,sent_at,user,message,thread_id,linked_expense_id,pinned,is_system
+SLK-1001,CH-001,2026-02-12T08:20:31Z,expense.intake,"Batch received. No automatic processing will run.",,FALSE,FALSE
+SLK-1002,CH-002,2026-02-13T10:05:09Z,grace.bennett,"Found a possible duplicate between submitted meal records. Registry verification still pending.",THR-S1,EXP-260201,FALSE,FALSE
+SLK-1003,CH-003,2026-02-13T11:44:17Z,finance.review,"Lodging amount exceeds standard threshold. Do not finalize.",THR-S2,EXP-260202,TRUE,FALSE
+SLK-1004,CH-002,2026-02-13T14:02:41Z,ops.qa,"Damaged receipt extraction confidence below acceptance level.",THR-S3,EXP-260204,FALSE,FALSE
+SLK-1005,CH-005,2026-02-14T09:13:08Z,expense.intake,"Supporting invoice packet uploaded.",THR-S4,,FALSE,FALSE
+SLK-1006,CH-003,2026-02-14T15:22:51Z,finance.review,"Utility expense appears historically reimbursed. Review only.",THR-S5,EXP-260205,FALSE,FALSE
+SLK-1007,CH-002,2026-02-15T09:01:16Z,grace.bennett,"Do not reject based on comments alone. Structured files remain authoritative.",THR-S6,,TRUE,FALSE
+SLK-1008,CH-005,2026-02-15T13:45:02Z,ops.qa,"Missing attachment case should remain held until evidence exists.",THR-S7,EXP-260209,FALSE,FALSE
+SLK-1009,CH-003,2026-02-16T09:20:45Z,finance.review,"No reimbursements executed in this cycle.",THR-S8,,FALSE,FALSE
+SLK-1010,CH-005,2026-02-16T09:40:19Z,ops.qa,"Prepare recommendations only. Any follow-up must stay draft-only.",THR-S9,,TRUE,FALSE
+SLK-1011,CH-006,2026-02-16T10:11:12Z,team.member,"Lunch options for Friday?",,FALSE,FALSE
+SLK-1012,CH-004,2026-02-16T10:18:07Z,finance.ops,"Policy documents override chat guidance.",THR-S10,,TRUE,TRUE

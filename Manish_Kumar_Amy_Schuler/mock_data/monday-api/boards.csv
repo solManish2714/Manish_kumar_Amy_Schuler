@@ -1,0 +1,7 @@
+board_id,board_name,workspace,owner,created_at,board_type,status,default_group,automation_enabled
+BRD-001,Receipt Review Queue,Operations QA,ops.qa,2026-02-01T09:00:00Z,private,active,Incoming,false
+BRD-002,Expense Reconciliation,Finance Operations,finance.ops,2026-02-02T08:30:00Z,private,active,Validation,false
+BRD-003,Exception Tracking,Operations QA,grace.bennett,2026-02-05T10:00:00Z,private,active,Open Cases,false
+BRD-004,Draft Follow-up Planner,Expense Intake,expense.intake,2026-02-10T13:20:00Z,private,active,Drafts,false
+BRD-005,Policy Reference Board,Finance Operations,finance.ops,2026-02-11T11:00:00Z,private,read_only,References,false
+BRD-006,Batch OPS-QA-2026-0216,Operations QA,ops.qa,2026-02-12T08:00:00Z,private,active,Review,false

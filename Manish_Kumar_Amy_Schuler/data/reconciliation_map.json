@@ -1,0 +1,129 @@
+{
+"mapping_version": "RCN-2026.2",
+"generated_at": "2026-02-16T18:30:00Z",
+"authority_order": [
+"policy_rules.json",
+"approval_limits.csv",
+"receipt_registry.csv",
+"processing_state.json"
+],
+"relationships": [
+{
+"expense_id": "EXP-260201",
+"receipt_file": "img_01.jpg",
+"receipt_registry_id": "REG-0001",
+"approval_rule": "APR-001",
+"approval_reference": null,
+"workflow_state": "under_review",
+"reconciliation_status": "possible_duplicate",
+"linked_expense_ids": ["EXP-260208"],
+"final_action": "hold"
+},
+{
+"expense_id": "EXP-260202",
+"receipt_file": "img_02.jpg",
+"receipt_registry_id": "REG-0002",
+"approval_rule": "APR-006",
+"approval_reference": null,
+"workflow_state": "pending_approval",
+"reconciliation_status": "historical_match_found",
+"linked_expense_ids": ["EXP-260210"],
+"final_action": "review"
+},
+{
+"expense_id": "EXP-260203",
+"receipt_file": "img_04.jpg",
+"receipt_registry_id": "REG-0003",
+"approval_rule": "APR-001",
+"approval_reference": "APR-8824",
+"workflow_state": "approved",
+"reconciliation_status": "validated",
+"linked_expense_ids": [],
+"final_action": "approve"
+},
+{
+"expense_id": "EXP-260204",
+"receipt_file": "img_05.jpg",
+"receipt_registry_id": null,
+"approval_rule": "APR-007",
+"approval_reference": null,
+"workflow_state": "held",
+"reconciliation_status": "ocr_failure",
+"linked_expense_ids": [],
+"final_action": "manual_review"
+},
+{
+"expense_id": "EXP-260205",
+"receipt_file": "file_10.pdf",
+"receipt_registry_id": "REG-0004",
+"approval_rule": "APR-010",
+"approval_reference": "APR-8809",
+"workflow_state": "processed",
+"reconciliation_status": "already_reimbursed",
+"linked_expense_ids": [],
+"final_action": "no_action"
+},
+{
+"expense_id": "EXP-260206",
+"receipt_file": "file_09.pdf",
+"receipt_registry_id": "REG-0012",
+"approval_rule": "APR-011",
+"approval_reference": null,
+"workflow_state": "rejected",
+"reconciliation_status": "policy_rejection",
+"linked_expense_ids": [],
+"final_action": "reject"
+},
+{
+"expense_id": "EXP-260207",
+"receipt_file": "file_06.pdf",
+"receipt_registry_id": null,
+"approval_rule": "APR-013",
+"approval_reference": null,
+"workflow_state": "pending_approval",
+"reconciliation_status": "missing_authorization",
+"linked_expense_ids": [],
+"final_action": "hold"
+},
+{
+"expense_id": "EXP-260208",
+"receipt_file": "img_01.jpg",
+"receipt_registry_id": "REG-0010",
+"approval_rule": "APR-014",
+"approval_reference": null,
+"workflow_state": "duplicate_detected",
+"reconciliation_status": "exact_receipt_match",
+"linked_expense_ids": ["EXP-260201"],
+"final_action": "reject_duplicate"
+},
+{
+"expense_id": "EXP-260209",
+"receipt_file": null,
+"receipt_registry_id": null,
+"approval_rule": "APR-015",
+"approval_reference": null,
+"workflow_state": "held",
+"reconciliation_status": "missing_attachment",
+"linked_expense_ids": [],
+"final_action": "request_supporting_document"
+},
+{
+"expense_id": "EXP-260210",
+"receipt_file": "img_02.jpg",
+"receipt_registry_id": "REG-0002",
+"approval_rule": "APR-006",
+"approval_reference": "APR-8816",
+"workflow_state": "processed",
+"reconciliation_status": "duplicate_reimbursement_detected",
+"linked_expense_ids": ["EXP-260202"],
+"final_action": "lock_record"
+}
+],
+"cross_source_checks": {
+"duplicate_priority_overrides_approval": true,
+"receipt_registry_is_authoritative": true,
+"free_text_is_non_authoritative": true,
+"processed_records_are_immutable": true,
+"missing_documents_block_auto_approval": true
+}
+}

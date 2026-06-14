@@ -1,0 +1,7 @@
+channel_id,channel_name,visibility,purpose,created_at,owner,retention_days,status
+CH-001,expense-intake,private,Document intake and intake coordination,2025-11-02T09:00:00Z,expense.intake,90,active
+CH-002,ops-qa-review,private,Receipt validation and exception handling,2025-11-10T10:30:00Z,ops.qa,180,active
+CH-003,finance-review,private,Threshold and reimbursement review,2025-11-15T08:20:00Z,finance.ops,180,active
+CH-004,policy-help,public,Policy clarification and references,2025-12-01T12:10:00Z,finance.ops,365,active
+CH-005,batch-ops-qa-2026-0216,private,Temporary batch reconciliation workspace,2026-02-12T08:00:00Z,ops.qa,30,active
+CH-006,random,public,General team discussion,2025-01-01T09:00:00Z,admin,30,active

@@ -1,0 +1,144 @@
+{
+"policy_version": "POL-2026.2",
+"effective_date": "2026-01-01",
+"document": "Expense Processing and Receipt Validation Policy",
+"default_rules": {
+"currency": "USD",
+"receipt_required": true,
+"duplicate_detection_enabled": true,
+"approval_execution_allowed": false,
+"state_change_requires_confirmation": true,
+"missing_document_action": "hold_for_review",
+"ocr_confidence_threshold": 0.70
+},
+"expense_categories": [
+{
+"category": "Meals & Beverages",
+"allowed": true,
+"required_documents": [
+"receipt_image"
+],
+"mandatory_fields": [
+"merchant",
+"expense_date",
+"amount",
+"business_purpose"
+],
+"duplicate_rule": "merchant+date+amount",
+"approval": {
+"auto_limit_usd": 25,
+"manager_limit_usd": 75,
+"director_above": 75
+},
+"exceptions": [
+"missing_attendees_over_25",
+"personal_meal"
+]
+},
+{
+"category": "Lodging",
+"allowed": true,
+"required_documents": [
+"hotel_invoice",
+"expense_submission"
+],
+"mandatory_fields": [
+"check_in_date",
+"merchant",
+"amount"
+],
+"duplicate_rule": "merchant+invoice+amount",
+"approval": {
+"executive_above": 500
+},
+"exceptions": [
+"duplicate_invoice",
+"partial_receipt"
+]
+},
+{
+"category": "Office Supplies",
+"allowed": true,
+"required_documents": [
+"receipt_image"
+],
+"mandatory_fields": [
+"merchant",
+"amount"
+],
+"validation": {
+"ocr_required": true,
+"minimum_confidence": 0.70
+},
+"exceptions": [
+"merchant_missing",
+"damaged_receipt"
+]
+},
+{
+"category": "Transport",
+"allowed": true,
+"required_documents": [
+"receipt_if_over_50"
+],
+"mandatory_fields": [
+"trip_reason",
+"amount"
+],
+"approval": {
+"auto_limit_usd": 50
+}
+},
+{
+"category": "Utilities",
+"allowed": true,
+"required_documents": [
+"invoice_pdf"
+],
+"duplicate_rule": "account+billing_period+amount",
+"exceptions": [
+"already_reimbursed"
+]
+},
+{
+"category": "Wellness",
+"allowed": false,
+"required_documents": [
+"receipt"
+],
+"rejection_reason": "personal_expense_not_reimbursable"
+},
+{
+"category": "Production",
+"allowed": true,
+"required_documents": [
+"invoice_pdf",
+"approval_reference"
+],
+"approval": {
+"executive_above": 500
+},
+"exceptions": [
+"missing_contract",
+"missing_approval"
+]
+}
+],
+"processing_states": [
+"submitted",
+"under_review",
+"approved",
+"rejected",
+"duplicate_detected",
+"held",
+"requires_confirmation"
+],
+"authoritative_sources": {
+"policy_priority": [
+"policy_rules.json",
+"approval_limits.csv",
+"receipt_registry.csv"
+],
+"free_text_notes_are_non_authoritative": true
+}
+}

@@ -1,0 +1,11 @@
+reimbursement_id,expense_id,processed_date,employee_id,employee_name,expense_date,merchant,category,approved_amount,currency,reimbursement_method,approval_level,approved_by,approval_reference,payout_status,payout_date,receipt_reference,policy_version,notes
+RMB-8801,EXP-260150,2026-01-18,EMP-104,Ellen Baldwin,2026-01-15,Pinewood Coffee Co.,Meals & Beverages,18.92,USD,ACH,Manager,A. Patel,APR-8742,Paid,2026-01-20,img_11.jpg,POL-2026.1,Client coffee meeting approved
+RMB-8802,EXP-260155,2026-01-22,EMP-104,Ellen Baldwin,2026-01-20,Airport Taxi,Transport,42.00,USD,ACH,Manager,S. Lewis,APR-8748,Paid,2026-01-24,file_14.pdf,POL-2026.1,Receipt verified
+RMB-8803,EXP-260160,2026-01-29,EMP-104,Ellen Baldwin,2026-01-27,Riverfront Hotel,Lodging,614.12,USD,ACH,Director,M. Carter,APR-8753,Paid,2026-02-01,file_15.pdf,POL-2026.1,Lodging within travel allowance
+RMB-8804,EXP-260165,2026-02-03,EMP-104,Ellen Baldwin,2026-02-01,NES Utilities,Utilities,118.50,USD,ACH,Manager,A. Patel,APR-8761,Paid,2026-02-05,file_10.pdf,POL-2026.2,Home studio utility reimbursement
+RMB-8805,EXP-260168,2026-02-04,EMP-104,Ellen Baldwin,2026-02-02,Biscuit Love,Meals & Beverages,21.48,USD,ACH,Manager,S. Lewis,APR-8764,Paid,2026-02-06,img_08.jpg,POL-2026.2,Receipt and attendees provided
+RMB-8806,EXP-260172,2026-02-06,EMP-104,Ellen Baldwin,2026-02-04,Office Depot,Office Supplies,84.26,USD,ACH,Manager,A. Patel,APR-8771,Paid,2026-02-08,file_16.pdf,POL-2026.2,Office supplies approved
+RMB-8807,EXP-260176,2026-02-08,EMP-104,Ellen Baldwin,2026-02-05,Airport Taxi,Transport,48.00,USD,ACH,Manager,S. Lewis,APR-8778,Paid,2026-02-10,file_17.pdf,POL-2026.2,Travel reimbursement completed
+RMB-8808,EXP-260181,2026-02-10,EMP-104,Ellen Baldwin,2026-02-07,The Riverfront Hotel,Lodging,629.36,USD,ACH,Director,M. Carter,APR-8782,Paid,2026-02-12,img_02_archive.jpg,POL-2026.2,Approved lodging reimbursement
+RMB-8809,EXP-260205,2026-02-12,EMP-104,Ellen Baldwin,2026-02-11,NES Utilities,Utilities,118.50,USD,ACH,Manager,A. Patel,APR-8809,Paid,2026-02-14,file_10.pdf,POL-2026.2,Already reimbursed record
+RMB-8810,EXP-260188,2026-02-14,EMP-104,Ellen Baldwin,2026-02-10,Local Transit,Transport,27.60,USD,ACH,Manager,S. Lewis,APR-8812,Paid,2026-02-16,file_18.pdf,POL-2026.2,Transit expense approved

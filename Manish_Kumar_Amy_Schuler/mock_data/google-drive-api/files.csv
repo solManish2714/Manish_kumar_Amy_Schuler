@@ -1,0 +1,13 @@
+file_id,file_name,file_type,parent_folder,owner,created_at,last_modified,size_kb,linked_expense_id,review_status,document_role,version,is_locked
+DRV-1001,img_01.jpg,image,expense_intake,ellen.baldwin,2026-02-12T08:12:10Z,2026-02-12T08:12:10Z,882,EXP-260201,under_review,receipt,v1,false
+DRV-1002,img_02.jpg,image,expense_intake,ellen.baldwin,2026-02-12T08:13:44Z,2026-02-12T08:13:44Z,1045,EXP-260202,pending,lodging_invoice,v1,false
+DRV-1003,img_04.jpg,image,expense_intake,ellen.baldwin,2026-02-14T09:01:17Z,2026-02-14T09:01:17Z,526,EXP-260203,approved,receipt,v1,true
+DRV-1004,img_05.jpg,image,expense_intake,ellen.baldwin,2026-02-13T09:04:55Z,2026-02-13T09:04:55Z,732,EXP-260204,held,receipt,v1,false
+DRV-1005,file_10.pdf,pdf,reimbursements,finance.ops,2026-02-11T11:18:03Z,2026-02-11T11:18:03Z,601,EXP-260205,processed,utility_invoice,v2,true
+DRV-1006,file_09.pdf,pdf,expense_intake,ellen.baldwin,2026-02-12T15:14:07Z,2026-02-12T15:14:07Z,542,EXP-260206,rejected,supporting_document,v1,false
+DRV-1007,file_06.pdf,pdf,expense_intake,ellen.baldwin,2026-02-16T08:41:12Z,2026-02-16T08:41:12Z,819,EXP-260207,pending,invoice_packet,v1,false
+DRV-1008,file_18.pdf,pdf,policy_library,finance.ops,2026-02-16T09:03:51Z,2026-02-16T09:03:51Z,664,,reference,policy,v3,true
+DRV-1009,file_19.pdf,pdf,policy_library,ops.qa,2026-02-16T09:04:18Z,2026-02-16T09:04:18Z,701,,reference,sop,v2,true
+DRV-1010,file_20.pdf,pdf,supporting_docs,expense.intake,2026-02-14T10:05:32Z,2026-02-14T10:05:32Z,1248,,supporting,invoice_packet,v1,false
+DRV-1011,receipt_registry.csv,csv,system_records,finance.ops,2026-02-16T09:15:10Z,2026-02-16T09:15:10Z,186,ALL,authoritative,registry,v5,true
+DRV-1012,processing_state.json,json,system_records,ops.qa,2026-02-16T09:18:42Z,2026-02-16T09:18:42Z,242,ALL,authoritative,workflow,v2,true

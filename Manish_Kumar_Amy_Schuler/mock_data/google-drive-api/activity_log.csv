@@ -1,0 +1,13 @@
+activity_id,timestamp,file_id,actor,action,details,result
+ACT-001,2026-02-12T08:12:13Z,DRV-1001,expense-intake,upload,Receipt stored,success
+ACT-002,2026-02-12T08:14:20Z,DRV-1002,expense-intake,classification,Lodging document detected,success
+ACT-003,2026-02-13T09:06:42Z,DRV-1004,ops.qa,ocr_scan,Low confidence extraction,flagged
+ACT-004,2026-02-13T11:40:11Z,DRV-1002,finance-review,duplicate_lookup,Historical match found,flagged
+ACT-005,2026-02-14T09:12:03Z,DRV-1003,ops.qa,validation,Approval marks verified,success
+ACT-006,2026-02-14T10:06:10Z,DRV-1010,expense-intake,attach_supporting_docs,Packet linked,success
+ACT-007,2026-02-15T08:20:32Z,DRV-1005,finance.ops,history_check,Existing reimbursement found,locked
+ACT-008,2026-02-15T14:03:22Z,DRV-1011,ops.qa,registry_check,Duplicate reconciliation executed,success
+ACT-009,2026-02-16T09:22:18Z,DRV-1008,reviewer,policy_access,Policy consulted,success
+ACT-010,2026-02-16T09:25:44Z,DRV-1009,reviewer,sop_access,Workflow guidance referenced,success
+ACT-011,2026-02-16T09:31:09Z,DRV-1012,ops.qa,state_review,Workflow verified,success
+ACT-012,2026-02-16T09:34:51Z,DRV-1007,finance-review,approval_validation,Authorization missing,hold

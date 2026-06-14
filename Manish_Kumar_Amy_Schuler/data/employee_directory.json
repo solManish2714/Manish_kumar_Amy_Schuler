@@ -1,0 +1,122 @@
+{
+"directory_version": "EMP-2026.1",
+"snapshot_date": "2026-02-16",
+"employees": [
+{
+"employee_id": "EMP-104",
+"employee_name": "Ellen Baldwin",
+"department": "Creative Operations",
+"cost_center": "CC-210",
+"manager_id": "EMP-021",
+"manager_name": "Ava Patel",
+"expense_policy_group": "STANDARD",
+"approval_limit_usd": 75,
+"executive_threshold_usd": 500,
+"status": "active",
+"location": "Nashville"
+},
+{
+"employee_id": "EMP-021",
+"employee_name": "Ava Patel",
+"department": "Finance Operations",
+"cost_center": "CC-001",
+"role": "Expense Manager",
+"approval_authority": "Manager",
+"status": "active"
+},
+{
+"employee_id": "EMP-038",
+"employee_name": "Sarah Lewis",
+"department": "Travel Operations",
+"cost_center": "CC-112",
+"role": "Operations Lead",
+"approval_authority": "Manager",
+"status": "active"
+},
+{
+"employee_id": "EMP-052",
+"employee_name": "Michael Carter",
+"department": "Finance",
+"cost_center": "CC-002",
+"role": "Finance Director",
+"approval_authority": "Director",
+"approval_limit_usd": 500,
+"status": "active"
+},
+{
+"employee_id": "EMP-063",
+"employee_name": "Daniel Reed",
+"department": "Finance",
+"cost_center": "CC-003",
+"role": "Finance Controller",
+"approval_authority": "Executive",
+"approval_limit_usd": 5000,
+"status": "active"
+},
+{
+"employee_id": "EMP-074",
+"employee_name": "Grace Bennett",
+"department": "Operations QA",
+"cost_center": "CC-014",
+"role": "QA Reviewer",
+"approval_authority": "Review",
+"status": "active"
+},
+{
+"employee_id": "EMP-082",
+"employee_name": "Nathan Brooks",
+"department": "Operations",
+"cost_center": "CC-018",
+"manager_id": "EMP-074",
+"expense_policy_group": "STANDARD",
+"status": "active"
+},
+{
+"employee_id": "EMP-091",
+"employee_name": "Rachel Moore",
+"department": "HR Operations",
+"cost_center": "CC-301",
+"approval_authority": "Restricted Categories",
+"status": "active"
+},
+{
+"employee_id": "EMP-117",
+"employee_name": "James Walker",
+"department": "Expense Intake",
+"cost_center": "CC-023",
+"role": "Document Intake Analyst",
+"status": "active"
+},
+{
+"employee_id": "EMP-141",
+"employee_name": "Sophia Turner",
+"department": "Production Finance",
+"cost_center": "CC-220",
+"approval_authority": "Director",
+"status": "active"
+}
+],
+"department_rules": {
+"Operations QA": {
+"can_review": true,
+"can_approve": false
+},
+"Finance Operations": {
+"can_review": true,
+"can_approve": true
+},
+"Expense Intake": {
+"can_create_submission": true,
+"can_finalize": false
+},
+"HR Operations": {
+"can_reject_restricted_categories": true
+}
+},
+"authority_order": [
+"Auto",
+"Manager",
+"Director",
+"Executive"
+]
+}

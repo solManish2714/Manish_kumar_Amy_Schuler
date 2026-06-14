@@ -1,0 +1,121 @@
+{
+"workflow_version": "WF-2026.2",
+"snapshot_date": "2026-02-16",
+"processing_summary": {
+"total_submissions": 10,
+"processed": 4,
+"under_review": 3,
+"pending_approval": 2,
+"rejected": 1,
+"duplicate_cases": 2
+},
+"receipt_states": [
+{
+"expense_id": "EXP-260201",
+"current_state": "under_review",
+"receipt_file": "img_01.jpg",
+"state_reason": "possible_duplicate_check",
+"linked_registry_id": "REG-0001",
+"next_action": "compare_receipt_signature",
+"state_owner": "Operations QA",
+"state_changed_at": "2026-02-13T10:14:00Z"
+},
+{
+"expense_id": "EXP-260202",
+"current_state": "pending_approval",
+"receipt_file": "img_02.jpg",
+"state_reason": "executive_threshold_exceeded",
+"linked_registry_id": "REG-0002",
+"next_action": "approval_required",
+"state_owner": "Finance Controller",
+"state_changed_at": "2026-02-12T14:42:00Z"
+},
+{
+"expense_id": "EXP-260203",
+"current_state": "approved",
+"receipt_file": "img_04.jpg",
+"state_reason": "approval_initials_verified",
+"linked_registry_id": "REG-0003",
+"next_action": "await_reimbursement",
+"state_owner": "Expense Processing",
+"state_changed_at": "2026-02-15T08:33:00Z"
+},
+{
+"expense_id": "EXP-260204",
+"current_state": "held",
+"receipt_file": "img_05.jpg",
+"state_reason": "ocr_confidence_below_threshold",
+"linked_registry_id": null,
+"next_action": "manual_validation",
+"state_owner": "Operations QA",
+"state_changed_at": "2026-02-15T16:08:00Z"
+},
+{
+"expense_id": "EXP-260205",
+"current_state": "processed",
+"receipt_file": "file_10.pdf",
+"state_reason": "already_reimbursed",
+"linked_registry_id": "REG-0004",
+"next_action": "none",
+"state_owner": "Finance Operations",
+"state_changed_at": "2026-02-12T09:00:00Z"
+},
+{
+"expense_id": "EXP-260206",
+"current_state": "rejected",
+"receipt_file": "file_09.pdf",
+"state_reason": "category_not_reimbursable",
+"linked_registry_id": "REG-0012",
+"next_action": "close_submission",
+"state_owner": "HR Operations",
+"state_changed_at": "2026-02-02T12:05:00Z"
+},
+{
+"expense_id": "EXP-260207",
+"current_state": "pending_approval",
+"receipt_file": "file_06.pdf",
+"state_reason": "executive_approval_missing",
+"linked_registry_id": null,
+"next_action": "await_authorization",
+"state_owner": "CFO Office",
+"state_changed_at": "2026-02-16T09:25:00Z"
+},
+{
+"expense_id": "EXP-260208",
+"current_state": "duplicate_detected",
+"receipt_file": "img_01.jpg",
+"state_reason": "exact_receipt_hash_match",
+"linked_registry_id": "REG-0010",
+"next_action": "hold_processing",
+"state_owner": "Operations QA",
+"state_changed_at": "2026-02-13T10:17:00Z"
+},
+{
+"expense_id": "EXP-260209",
+"current_state": "held",
+"receipt_file": null,
+"state_reason": "missing_attachment",
+"linked_registry_id": null,
+"next_action": "request_document",
+"state_owner": "Expense Intake",
+"state_changed_at": "2026-02-13T15:22:00Z"
+},
+{
+"expense_id": "EXP-260210",
+"current_state": "processed",
+"receipt_file": "img_02.jpg",
+"state_reason": "historical_reimbursement_found",
+"linked_registry_id": "REG-0002",
+"next_action": "none",
+"state_owner": "Finance Operations",
+"state_changed_at": "2026-02-11T18:10:00Z"
+}
+],
+"state_rules": {
+"approved_requires_execution": false,
+"processed_records_are_read_only": true,
+"held_records_need_manual_action": true,
+"duplicate_detected_overrides_approval": true,
+"policy_file_has_priority": true
+}
+}

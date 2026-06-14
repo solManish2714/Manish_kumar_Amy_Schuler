@@ -1,0 +1,13 @@
+item_id,board_id,item_name,linked_expense_id,assignee,current_group,priority,current_status,due_date,next_step,locked
+ITM-1001,BRD-001,Validate meal submission,EXP-260201,grace.bennett,Incoming,high,under_review,2026-02-16,compare_duplicate,false
+ITM-1002,BRD-002,Review lodging threshold,EXP-260202,finance.review,Validation,critical,pending,2026-02-16,check_history,false
+ITM-1003,BRD-001,Verify approved receipt,EXP-260203,ops.qa,Validated,low,complete,2026-02-15,no_action,true
+ITM-1004,BRD-003,OCR exception handling,EXP-260204,grace.bennett,Open Cases,medium,held,2026-02-17,manual_review,false
+ITM-1005,BRD-002,Historical reimbursement check,EXP-260205,finance.ops,Validation,high,processed,2026-02-15,lock_record,true
+ITM-1006,BRD-003,Restricted category review,EXP-260206,hr.operations,Closed,medium,rejected,2026-02-15,close_case,true
+ITM-1007,BRD-002,Production escalation,EXP-260207,finance.review,Validation,critical,pending,2026-02-17,prepare_recommendation,false
+ITM-1008,BRD-003,Duplicate confirmation,EXP-260208,ops.qa,Open Cases,critical,duplicate_detected,2026-02-16,hold,false
+ITM-1009,BRD-004,Draft request for attachment,EXP-260209,expense.intake,Drafts,medium,draft_only,2026-02-16,prepare_followup,false
+ITM-1010,BRD-002,Historical match review,EXP-260210,finance.ops,Validation,low,locked,2026-02-15,no_action,true
+ITM-1011,BRD-006,Generate final recommendation,,ops.qa,Review,critical,in_progress,2026-02-16,outcome_summary,false
+ITM-1012,BRD-005,Reference policy update,,finance.ops,References,low,read_only,,none,true

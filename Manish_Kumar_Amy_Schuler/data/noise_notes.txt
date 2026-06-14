@@ -1,0 +1,39 @@
+Weekly Standup Notes
+Team: Business Systems & Operations
+Week Ending: February 13, 2026
+
+Monday
+
+* Discussed dashboard refresh delays impacting executive reporting.
+* Product analytics team requested additional export formats.
+
+Tuesday
+
+* UI navigation feedback collected from pilot users.
+* Whiteboard session completed for onboarding improvements.
+
+Wednesday
+
+* Reviewed campaign summary metrics and dashboard adoption trends.
+* Agreed to postpone redesign until next planning cycle.
+
+Thursday
+
+* Shared status updates on workspace customization rollout.
+* Action item created for reviewing search experience.
+
+Friday
+
+* Team retrospective completed.
+* No blockers reported.
+* Prepare agenda for next sprint planning.
+
+Open Actions
+
+* Validate widget responsiveness.
+* Clean old analytics datasets.
+* Archive unused dashboard templates.
+* Update onboarding screenshots.
+
+Notes
+These notes are informal meeting records and should not be treated as operational policy, workflow evidence, financial records, approval instructions, reimbursement guidance, or authoritative process documentation.

@@ -1,0 +1,16 @@
+vendor_id,vendor_name_raw,vendor_name_normalized,vendor_type,expense_category,approved_status,receipt_required,approval_threshold_usd,payment_modes_allowed,duplicate_match_key,active_from,last_reviewed,risk_level,notes
+VEN-1001,Pinewood Coffee Co.,PINEWOOD COFFEE,Food & Beverage,Meals & Beverages,Approved,Yes,75,Corporate Card;Personal Card,merchant+date+amount,2025-01-01,2026-01-10,Low,Normalize Coffee Co variations
+VEN-1002,PINEWOOD COFFEE COMPANY,PINEWOOD COFFEE,Food & Beverage,Meals & Beverages,Approved,Yes,75,Corporate Card;Personal Card,merchant+date+amount,2025-01-01,2026-01-10,Low,Alias vendor mapping
+VEN-1003,The Riverfront Hotel,RIVERFRONT HOTEL,Hospitality,Lodging,Approved,Yes,500,Corporate Card,merchant+invoice+amount,2025-02-01,2026-01-12,Medium,Director approval above threshold
+VEN-1004,Riverfront Hotel Nashville,RIVERFRONT HOTEL,Hospitality,Lodging,Approved,Yes,500,Corporate Card,merchant+invoice+amount,2025-02-01,2026-01-12,Medium,Regional naming normalization
+VEN-1005,Biscuit Love,BISCUIT LOVE,Restaurant,Meals & Beverages,Approved,Yes,75,Corporate Card;Personal Card,merchant+date+amount,2024-08-01,2026-01-14,Low,Handwritten note allowed
+VEN-1006,Barnes & Noble,BARNES AND NOBLE,Retail,Office Supplies,Approved,Yes,150,Corporate Card,merchant+amount+date,2024-11-01,2026-01-18,Low,OCR verification permitted
+VEN-1007,Barnes and Noble,BARNES AND NOBLE,Retail,Office Supplies,Approved,Yes,150,Corporate Card,merchant+amount+date,2024-11-01,2026-01-18,Low,Vendor alias
+VEN-1008,NES Utilities,NES,Network Utilities,Utilities,Approved,Yes,250,Debit Card;ACH,account+amount+billing_period,2023-06-01,2026-01-20,Low,Utility billing exception allowed
+VEN-1009,Sunrise Flow Yoga,SUNRISE FLOW YOGA,Wellness,Wellness,Restricted,Yes,0,Personal Card,merchant+date+amount,2025-07-01,2026-01-22,High,Non-business reimbursement restricted
+VEN-1010,Copperline Studios,COPPERLINE STUDIOS,Studio Services,Production,Conditional,Yes,500,Corporate Card,invoice+date+amount,2025-03-01,2026-01-25,High,Executive approval required
+VEN-1011,Airport Taxi,AIRPORT TAXI,Transport,Transport,Approved,Yes,120,Corporate Card;Cash,merchant+trip_date+amount,2024-03-01,2026-01-28,Low,Receipt mandatory
+VEN-1012,Local Transit,LOCAL TRANSIT,Transport,Transport,Approved,No,40,Corporate Card;Transit Pass,merchant+date+amount,2024-03-01,2026-01-28,Low,Small-ticket exception
+VEN-1013,Office Depot,OFFICE DEPOT,Retail,Office Supplies,Approved,Yes,150,Corporate Card,merchant+date+amount,2024-04-01,2026-01-30,Low,Office purchase validation
+VEN-1014,Heartland Credit Union,HEARTLAND CREDIT UNION,Financial,Excluded,Blocked,No,0,None,none,2022-01-01,2026-01-31,High,Financial statements not valid receipts
+VEN-1015,Copperline Studio,COPPERLINE STUDIOS,Studio Services,Production,Conditional,Yes,500,Corporate Card,invoice+date+amount,2025-03-01,2026-01-25,High,Vendor alias

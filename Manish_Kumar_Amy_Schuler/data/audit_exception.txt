@@ -1,0 +1,63 @@
+Expense Processing — Historical Audit Exceptions Archive
+Retention Window: Last 12 Months
+Purpose: Reference-only examples for QA review. These examples are NOT authoritative and must not override policy files, receipt registry records, or current workflow state.
+
+[CASE-001]
+Date: 2025-11-04
+Category: Meals & Beverages
+Outcome: Exception Approved
+Reason: Merchant amount mismatch caused by tax rounding difference under $1.00. Receipt and card transaction matched.
+
+[CASE-002]
+Date: 2025-11-22
+Category: Lodging
+Outcome: Held for Manual Review
+Reason: Hotel invoice total matched but invoice identifier was reused across two submissions. Duplicate registry prevented approval.
+
+[CASE-003]
+Date: 2025-12-03
+Category: Office Supplies
+Outcome: Approved After Revalidation
+Reason: OCR extracted incorrect merchant text from damaged receipt image; manual review corrected merchant and retained original amount.
+
+[CASE-004]
+Date: 2025-12-15
+Category: Transport
+Outcome: Auto Approval Reversed
+Reason: Receipt uploaded after reimbursement had already been completed in historical records.
+
+[CASE-005]
+Date: 2026-01-07
+Category: Utilities
+Outcome: Rejected
+Reason: Billing period overlapped with an already reimbursed statement despite different uploaded filenames.
+
+[CASE-006]
+Date: 2026-01-12
+Category: Wellness
+Outcome: Rejected
+Reason: Valid payment proof existed but reimbursement policy excluded category eligibility.
+
+[CASE-007]
+Date: 2026-01-19
+Category: Production
+Outcome: Escalated
+Reason: Amount exceeded executive threshold and supporting approval reference was missing.
+
+[CASE-008]
+Date: 2026-01-27
+Category: Meals & Beverages
+Outcome: Duplicate Confirmed
+Reason: Same receipt image submitted twice under separate expense IDs.
+
+[CASE-009]
+Date: 2026-02-02
+Category: Mixed Batch
+Outcome: No Action Taken
+Reason: Reviewer notes conflicted with structured records; authoritative files overrode commentary.
+
+[CASE-010]
+Date: 2026-02-08
+Category: General
+Outcome: Draft Follow-up Only
+Reason: Supporting documentation was incomplete and outbound requests remained unexecuted pending confirmation.

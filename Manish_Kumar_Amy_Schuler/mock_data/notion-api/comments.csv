@@ -1,0 +1,11 @@
+comment_id,page_id,user,created_at,comment,resolved
+CMT-001,PG-1002,grace.bennett,2026-02-13T10:12:11Z,"Looks similar to an already processed meal. Verify registry before recommendation.",false
+CMT-002,PG-1003,finance.review,2026-02-13T11:56:04Z,"Threshold exceeded but no authorization action should occur here.",false
+CMT-003,PG-1004,ops.qa,2026-02-13T14:12:30Z,"Image quality is low. Keep original values unchanged.",true
+CMT-004,PG-1005,finance.ops,2026-02-14T15:31:22Z,"Historical reimbursement appears complete. Treat record as informational.",true
+CMT-005,PG-1006,hr.operations,2026-02-14T16:10:45Z,"Supporting document exists but policy eligibility failed.",true
+CMT-006,PG-1007,finance.review,2026-02-16T08:49:13Z,"Escalation recommendation only. No approval should be triggered.",false
+CMT-007,PG-1008,ops.qa,2026-02-16T09:01:28Z,"Exact duplicate signals should override readiness.",false
+CMT-008,PG-1009,expense.intake,2026-02-16T09:13:07Z,"Prepare follow-up only if required and keep as draft.",false
+CMT-009,PG-1001,ops.qa,2026-02-16T09:35:42Z,"Outcome summary must appear before evidence details.",true
+CMT-010,PG-1010,finance.ops,2026-02-16T09:41:18Z,"Historical notes are non-authoritative and must not drive decisions.",true

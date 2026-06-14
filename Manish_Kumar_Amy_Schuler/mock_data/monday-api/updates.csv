@@ -1,0 +1,11 @@
+update_id,item_id,updated_at,updated_by,update_type,message,visible_to_all
+UPD-001,ITM-1001,2026-02-13T10:06:14Z,grace.bennett,note,"Possible overlap detected. Registry validation required before recommendation.",true
+UPD-002,ITM-1002,2026-02-13T11:48:40Z,finance.review,warning,"Threshold exceeded. Recommendation only — do not approve.",true
+UPD-003,ITM-1004,2026-02-13T14:16:09Z,ops.qa,status,"Receipt quality insufficient for automated interpretation.",true
+UPD-004,ITM-1005,2026-02-14T15:34:11Z,finance.ops,history,"Historical payout identified. Record remains immutable.",true
+UPD-005,ITM-1007,2026-02-16T08:52:33Z,finance.review,review,"Supporting evidence exists but authorization not confirmed.",true
+UPD-006,ITM-1008,2026-02-16T09:02:22Z,ops.qa,exception,"Duplicate state overrides readiness.",true
+UPD-007,ITM-1009,2026-02-16T09:15:47Z,expense.intake,draft,"Prepare follow-up only. Sending disabled.",true
+UPD-008,ITM-1011,2026-02-16T09:38:28Z,ops.qa,summary,"Outcome should appear before explanation.",true
+UPD-009,ITM-1012,2026-02-16T09:42:05Z,finance.ops,reference,"Policy board is informational and read-only.",false
+UPD-010,ITM-1002,2026-02-16T09:44:10Z,finance.review,reminder,"Workflow state must not be changed during analysis.",true

@@ -1,0 +1,103 @@
+{
+"config_version": "analytics-ui-2.1",
+"dashboard_name": "Executive Metrics Overview",
+"owner": "Business Intelligence",
+"last_modified": "2026-02-14T16:18:07Z",
+"refresh_interval_seconds": 300,
+"layout": {
+"columns": 12,
+"grid_enabled": true,
+"compact_mode": false
+},
+"widgets": [
+{
+"widget_id": "W-001",
+"type": "kpi_card",
+"title": "Revenue",
+"enabled": true,
+"position": {
+"x": 0,
+"y": 0,
+"w": 3,
+"h": 2
+},
+"metric": "monthly_revenue"
+},
+{
+"widget_id": "W-002",
+"type": "line_chart",
+"title": "Traffic Trend",
+"enabled": true,
+"position": {
+"x": 3,
+"y": 0,
+"w": 6,
+"h": 4
+},
+"metric": "daily_visitors"
+},
+{
+"widget_id": "W-003",
+"type": "table",
+"title": "Top Accounts",
+"enabled": true,
+"position": {
+"x": 9,
+"y": 0,
+"w": 3,
+"h": 4
+},
+"rows": 10
+},
+{
+"widget_id": "W-004",
+"type": "funnel",
+"title": "Conversion Funnel",
+"enabled": false,
+"position": {
+"x": 0,
+"y": 4,
+"w": 6,
+"h": 4
+}
+},
+{
+"widget_id": "W-005",
+"type": "heatmap",
+"title": "Regional Engagement",
+"enabled": true,
+"position": {
+"x": 6,
+"y": 4,
+"w": 6,
+"h": 4
+}
+}
+],
+"filters": {
+"date_range": "last_90_days",
+"region": "all",
+"segment": "all",
+"currency": "USD"
+},
+"alerts": {
+"enabled": true,
+"threshold_rules": [
+{
+"metric": "conversion_rate",
+"condition": "below",
+"value": 2.5
+},
+{
+"metric": "daily_revenue",
+"condition": "above",
+"value": 250000
+}
+]
+},
+"exports": {
+"allow_csv": true,
+"allow_pdf": true,
+"scheduled_exports": false
+}
+}

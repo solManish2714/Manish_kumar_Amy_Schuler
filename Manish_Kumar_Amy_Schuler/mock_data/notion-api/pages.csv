@@ -1,0 +1,11 @@
+page_id,page_title,page_type,created_at,last_edited,owner,status,linked_expense_id,parent_database,priority,tags
+PG-1001,Batch OPS-QA-2026-0216 Overview,workspace,2026-02-12T08:30:00Z,2026-02-16T09:45:00Z,ops.qa,active,,DB-001,high,batch;review
+PG-1002,Duplicate Investigation - Meals,review_note,2026-02-13T10:08:00Z,2026-02-15T11:10:00Z,grace.bennett,open,EXP-260201,DB-001,high,duplicate;receipt
+PG-1003,Lodging Threshold Validation,review_note,2026-02-13T11:50:00Z,2026-02-16T09:18:00Z,finance.review,open,EXP-260202,DB-001,high,lodging;approval
+PG-1004,Receipt Extraction Failure,review_note,2026-02-13T14:10:00Z,2026-02-15T16:20:00Z,ops.qa,held,EXP-260204,DB-001,medium,ocr;manual
+PG-1005,Historical Reimbursement Crosscheck,audit_note,2026-02-14T15:26:00Z,2026-02-15T14:02:00Z,finance.ops,closed,EXP-260205,DB-001,high,history
+PG-1006,Restricted Category Review,review_note,2026-02-14T16:08:00Z,2026-02-15T08:20:00Z,hr.operations,rejected,EXP-260206,DB-001,medium,policy
+PG-1007,Production Expense Escalation,review_note,2026-02-16T08:44:00Z,2026-02-16T09:30:00Z,finance.review,pending,EXP-260207,DB-001,critical,threshold
+PG-1008,Duplicate Lock Recommendation,review_note,2026-02-13T10:15:00Z,2026-02-16T09:28:00Z,ops.qa,open,EXP-260208,DB-001,critical,duplicate
+PG-1009,Missing Attachment Follow-up,review_note,2026-02-15T13:48:00Z,2026-02-16T09:12:00Z,expense.intake,waiting,EXP-260209,DB-001,medium,missing_docs
+PG-1010,Historical Match Archive,reference,2026-02-16T09:10:00Z,2026-02-16T09:10:00Z,finance.ops,locked,EXP-260210,DB-001,low,archive

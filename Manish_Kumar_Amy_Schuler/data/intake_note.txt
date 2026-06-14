@@ -1,0 +1,7 @@
+There is a small batch of receipts and invoices in the workspace that already went through part of processing and I think something got classified incorrectly. Please check what should actually move forward, what should be stopped, and whether anything was already processed before.
+
+Treat attached records and structured logs as the source of truth over comments or memory, do not approve, reimburse, modify status, or trigger any follow-ups automatically.
+
+Call out duplicates, missing support, policy conflicts, threshold issues, and anything that needs manual review.
+
+Give me the outcome first, then short reasoning and draft any follow-up communication only if needed.

@@ -1,0 +1,11 @@
+reaction_id,message_id,user,reaction,created_at
+RX-001,SLK-1002,finance.review,eyes,2026-02-13T10:06:02Z
+RX-002,SLK-1003,ops.qa,warning,2026-02-13T11:45:01Z
+RX-003,SLK-1004,expense.intake,white_check_mark,2026-02-13T14:05:18Z
+RX-004,SLK-1006,grace.bennett,eyes,2026-02-14T15:23:44Z
+RX-005,SLK-1007,finance.ops,pushpin,2026-02-15T09:03:22Z
+RX-006,SLK-1008,expense.intake,thumbsup,2026-02-15T13:45:41Z
+RX-007,SLK-1009,ops.qa,white_check_mark,2026-02-16T09:21:18Z
+RX-008,SLK-1010,finance.review,pushpin,2026-02-16T09:41:10Z
+RX-009,SLK-1011,team.member,laughing,2026-02-16T10:11:44Z
+RX-010,SLK-1012,ops.qa,bookmark,2026-02-16T10:18:28Z

@@ -1,0 +1,10 @@
+thread_id,created_at,last_updated,participants,message_count,thread_status,resolution
+THR-201,2026-02-12T08:14:22Z,2026-02-12T08:18:10Z,ellen;expense-intake,2,closed,intake_complete
+THR-202,2026-02-13T09:06:14Z,2026-02-13T09:06:14Z,ellen;expense-intake,1,closed,attachment_added
+THR-203,2026-02-13T11:32:51Z,2026-02-14T12:40:19Z,ops.qa;finance-review,2,open,review_required
+THR-204,2026-02-13T15:22:06Z,2026-02-13T15:22:06Z,expense-intake;ellen,1,open,awaiting_document
+THR-205,2026-02-14T10:08:44Z,2026-02-14T10:08:44Z,ellen;expense-intake,1,closed,documents_uploaded
+THR-206,2026-02-14T12:40:19Z,2026-02-16T09:26:42Z,finance-review;ops.qa,2,open,pending_authorization
+THR-207,2026-02-15T08:31:11Z,2026-02-15T13:47:28Z,expense-intake;ops.qa,2,open,quality_hold
+THR-208,2026-02-16T09:05:03Z,2026-02-16T09:26:42Z,ellen;expense-intake;finance-review,2,open,review_only
+THR-209,2026-02-16T10:15:20Z,2026-02-16T10:15:20Z,expense-intake;ops.qa,1,closed,batch_ready

@@ -1,0 +1,13 @@
+campaign_id,campaign_name,channel,start_date,end_date,region,impressions,clicks,ctr_percent,conversions,conversion_rate_percent,spend_usd,revenue_usd,roi_percent,status
+CMP-2001,Q1 Productivity Push,Email,2026-01-03,2026-01-17,North America,842000,22618,2.69,918,4.06,12400,51720,317,Completed
+CMP-2002,Workspace Refresh,LinkedIn,2026-01-05,2026-01-20,Global,1256000,18244,1.45,672,3.68,19800,44190,123,Completed
+CMP-2003,New Year Upgrade,Search,2026-01-08,2026-01-28,US,2163000,69104,3.19,2784,4.03,38400,138600,261,Completed
+CMP-2004,Smart Office Awareness,Display,2026-01-10,2026-01-31,Europe,3109000,38481,1.24,1135,2.95,29200,65850,125,Completed
+CMP-2005,Hybrid Work Campaign,Email,2026-01-12,2026-02-01,Global,689000,21402,3.11,988,4.62,9700,54820,465,Completed
+CMP-2006,Desk Setup Stories,Instagram,2026-01-14,2026-02-04,US,1752000,45680,2.61,1412,3.09,22300,80250,260,Completed
+CMP-2007,Analytics Launch,YouTube,2026-01-16,2026-02-06,Global,4021000,93852,2.33,2208,2.35,51100,126880,148,Completed
+CMP-2008,Customer Expansion,Search,2026-01-18,2026-02-08,APAC,2417000,72115,2.98,2844,3.94,34600,142400,312,Completed
+CMP-2009,Office Automation,Display,2026-01-21,2026-02-10,Europe,1876000,24890,1.33,702,2.82,17100,48330,183,Completed
+CMP-2010,Quarterly Pipeline Boost,LinkedIn,2026-01-24,2026-02-14,North America,1132000,30684,2.71,1281,4.17,20700,73490,255,Completed
+CMP-2011,Brand Recall Study,Survey,2026-01-27,2026-02-15,Global,402000,9055,2.25,318,3.51,6200,18150,193,Completed
+CMP-2012,Executive Outreach,Email,2026-01-29,2026-02-16,US,554000,18432,3.33,844,4.58,8300,42960,418,Completed

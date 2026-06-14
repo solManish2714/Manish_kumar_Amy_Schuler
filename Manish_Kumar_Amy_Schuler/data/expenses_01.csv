@@ -1,0 +1,11 @@
+expense_id,submission_date,employee_id,employee_name,expense_date,merchant,category,amount,currency,payment_method,business_purpose,receipt_file,status,policy_flag,approval_status,approval_ref,notes
+EXP-260201,2026-02-12,EMP-104,Ellen Baldwin,2026-02-12,Pinewood Coffee Co.,Meals & Beverages,11.74,USD,Corporate Card ****8421,Client meeting - songwriting sync,img_01.jpg,Submitted,None,Pending,,Matches mobile submission
+EXP-260202,2026-02-10,EMP-104,Ellen Baldwin,2026-02-08,Riverfront Hotel,Lodging,629.36,USD,Corporate Card ****8421,Recording session travel,img_02.jpg,Submitted,Threshold Review,Pending,,Invoice partially visible
+EXP-260203,2026-02-14,EMP-104,Ellen Baldwin,2026-02-14,Biscuit Love,Meals & Beverages,15.84,USD,Corporate Card ****8421,Client lunch,img_04.jpg,Submitted,Handwritten Approval,Approved,APR-8824,Approval initials visible
+EXP-260204,2026-02-15,EMP-104,Ellen Baldwin,2026-02-15,Barnes & Noble,Office Supplies,35.76,USD,Corporate Card ****8421,Notebook for songwriting workshop,img_05.jpg,Submitted,OCR Required,Pending,,Receipt damaged
+EXP-260205,2026-02-11,EMP-104,Ellen Baldwin,2026-02-11,NES Utilities,Utilities,118.50,USD,Debit Card,Studio workspace electricity,file_10.pdf,Processed,None,Approved,APR-8809,Already reimbursed
+EXP-260206,2026-02-01,EMP-104,Ellen Baldwin,2026-02-01,Sunrise Flow Yoga,Wellness,97.23,USD,Debit Card,Personal wellness,file_09.pdf,Submitted,Category Exception,Rejected,,Likely non-reimbursable
+EXP-260207,2026-02-16,EMP-104,Ellen Baldwin,2026-02-16,Copperline Studios,Studio Services,700.00,USD,Corporate Card,Demo recording session,file_06.pdf,Submitted,Executive Approval Required,Pending,,High-value expense
+EXP-260208,2026-02-13,EMP-104,Ellen Baldwin,2026-02-13,Pinewood Coffee Co.,Meals & Beverages,11.74,USD,Corporate Card ****8421,Client meeting - songwriting sync,img_01.jpg,Submitted,Possible Duplicate,Pending,,Potential duplicate of EXP-260201
+EXP-260209,2026-02-05,EMP-104,Ellen Baldwin,2026-02-05,Airport Taxi,Transport,48.00,USD,Corporate Card,Travel to recording venue,,Submitted,Missing Receipt,Pending,,Attachment absent
+EXP-260210,2026-02-09,EMP-104,Ellen Baldwin,2026-02-09,Riverfront Hotel,Lodging,629.36,USD,Corporate Card ****8421,Recording session travel,img_02.jpg,Processed,Duplicate Detection,Approved,APR-8816,Prior lodging already processed

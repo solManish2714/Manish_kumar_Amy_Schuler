@@ -1,0 +1,16 @@
+rule_id,expense_category,min_amount_usd,max_amount_usd,approval_level,approval_required,receipt_required,duplicate_check_required,allowed_payment_method,auto_reject_condition,escalation_target,policy_version,effective_from,last_reviewed,notes
+APR-001,Meals & Beverages,0,25,Auto,None,Yes,Yes,Corporate Card,None,None,POL-2026.2,2026-01-01,2026-01-20,Auto-process if receipt present
+APR-002,Meals & Beverages,25.01,75,Manager,Yes,Yes,Yes,Corporate Card,Missing business purpose,Expense Manager,POL-2026.2,2026-01-01,2026-01-20,Attendee details required
+APR-003,Meals & Beverages,75.01,99999,Director,Yes,Yes,Yes,Corporate Card,Missing attendee justification,Finance Director,POL-2026.2,2026-01-01,2026-01-20,Executive review required
+APR-004,Lodging,0,250,Manager,Yes,Yes,Yes,Corporate Card,Missing invoice,Travel Operations,POL-2026.2,2026-01-01,2026-01-22,Travel evidence required
+APR-005,Lodging,250.01,500,Director,Yes,Yes,Yes,Corporate Card,Receipt mismatch,Travel Director,POL-2026.2,2026-01-01,2026-01-22,Hotel invoices validated against prior submissions
+APR-006,Lodging,500.01,99999,Executive,Yes,Yes,Yes,Corporate Card,Duplicate detected,Finance Controller,POL-2026.2,2026-01-01,2026-01-22,Executive approval mandatory
+APR-007,Office Supplies,0,150,Manager,Yes,Yes,Yes,Corporate Card,Low OCR and missing merchant,Operations QA,POL-2026.2,2026-01-01,2026-01-24,OCR confidence below 0.70 requires review
+APR-008,Transport,0,50,Auto,None,Optional,Yes,Corporate Card;Cash,None,None,POL-2026.2,2026-01-01,2026-01-24,Small-ticket transport exception
+APR-009,Transport,50.01,300,Manager,Yes,Yes,Yes,Corporate Card,Missing receipt,Travel Operations,POL-2026.2,2026-01-01,2026-01-24,Receipt required
+APR-010,Utilities,0,250,Manager,Yes,Yes,Yes,Debit Card;ACH,Duplicate invoice number,Finance Operations,POL-2026.2,2026-01-01,2026-01-25,Utility bills checked by billing period
+APR-011,Wellness,0,99999,Restricted,Yes,Yes,Yes,Personal Card,Category not reimbursable,HR Operations,POL-2026.2,2026-01-01,2026-01-25,Wellness expenses blocked by default
+APR-012,Production,0,500,Director,Yes,Yes,Yes,Corporate Card,Missing contract reference,Production Finance,POL-2026.2,2026-01-01,2026-01-27,Session justification required
+APR-013,Production,500.01,99999,Executive,Yes,Yes,Yes,Corporate Card,Missing executive approval,CFO Office,POL-2026.2,2026-01-01,2026-01-27,High-value production spend
+APR-014,Any,0,99999,Review,Yes,Yes,Yes,Any,Exact receipt hash match,Operations QA,POL-2026.2,2026-01-01,2026-01-28,Duplicate registry always overrides approval
+APR-015,Any,0,99999,Review,Yes,Yes,No,Any,Submission without attachment,Operations QA,POL-2026.2,2026-01-01,2026-01-28,Incomplete documentation cannot auto-approve

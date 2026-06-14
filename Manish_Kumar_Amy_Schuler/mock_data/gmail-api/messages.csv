@@ -1,0 +1,13 @@
+message_id,thread_id,sent_at,from_email,to_email,subject,body_preview,has_attachment,attachment_ref,label,status
+MSG-1001,THR-201,2026-02-12T08:14:22Z,ellen.baldwin@company.com,expense-intake@company.com,Expense submission - travel + meals,"Uploading receipts and hotel invoice for review. Please do not process automatically until validated.",TRUE,img_01.jpg;img_02.jpg,Expense Intake,received
+MSG-1002,THR-201,2026-02-12T08:18:10Z,expense-intake@company.com,ellen.baldwin@company.com,Re: Expense submission - travel + meals,"Documents received and queued for reconciliation.",FALSE,,System,delivered
+MSG-1003,THR-202,2026-02-13T09:06:14Z,ellen.baldwin@company.com,expense-intake@company.com,Additional receipt upload,"Adding one receipt that looked damaged after upload.",TRUE,img_05.jpg,Expense Intake,received
+MSG-1004,THR-203,2026-02-13T11:32:51Z,ops.qa@company.com,finance-review@company.com,Review request - possible duplicate,"Duplicate indicators found but nothing was approved.",FALSE,,Review,pending
+MSG-1005,THR-204,2026-02-13T15:22:06Z,expense-intake@company.com,ellen.baldwin@company.com,Missing attachment detected,"One submission appears incomplete. Please review before any processing.",FALSE,,System,delivered
+MSG-1006,THR-205,2026-02-14T10:08:44Z,ellen.baldwin@company.com,expense-intake@company.com,Expense packet upload,"Attached supporting invoices and supporting files.",TRUE,file_20.pdf,Expense Intake,received
+MSG-1007,THR-206,2026-02-14T12:40:19Z,finance-review@company.com,ops.qa@company.com,Threshold review required,"High-value reimbursement requires additional authorization evidence.",FALSE,,Finance,open
+MSG-1008,THR-207,2026-02-15T08:31:11Z,expense-intake@company.com,ellen.baldwin@company.com,Receipt quality warning,"One uploaded image could not be extracted confidently.",FALSE,,System,delivered
+MSG-1009,THR-208,2026-02-15T13:47:28Z,ops.qa@company.com,expense-intake@company.com,Processing hold recommendation,"Recommendation only. No approvals or reimbursements executed.",FALSE,,Review,open
+MSG-1010,THR-209,2026-02-16T09:05:03Z,ellen.baldwin@company.com,expense-intake@company.com,Final supporting docs,"Adding final supporting records before review closes.",TRUE,file_18.pdf;file_19.pdf,Expense Intake,received
+MSG-1011,THR-210,2026-02-16T09:26:42Z,finance-review@company.com,ellen.baldwin@company.com,Approval not completed,"Your documents remain under review. No action taken.",FALSE,,Finance,delivered
+MSG-1012,THR-211,2026-02-16T10:15:20Z,expense-intake@company.com,ops.qa@company.com,Batch OPS-QA-2026-0216 ready,"Structured files are available. Use registry and policy files as source of truth.",FALSE,,System,closed

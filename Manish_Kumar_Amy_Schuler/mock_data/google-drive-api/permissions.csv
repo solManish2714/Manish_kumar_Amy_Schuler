@@ -1,0 +1,11 @@
+permission_id,file_id,principal,access_level,granted_by,granted_at,inherited,can_edit
+PER-001,DRV-1001,expense-intake,editor,system,2026-02-12T08:12:11Z,false,true
+PER-002,DRV-1002,finance-review,viewer,system,2026-02-12T08:13:45Z,false,false
+PER-003,DRV-1003,ops.qa,viewer,finance.ops,2026-02-14T09:05:00Z,false,false
+PER-004,DRV-1004,ops.qa,editor,system,2026-02-13T09:05:10Z,false,true
+PER-005,DRV-1005,finance.ops,owner,system,2026-02-11T11:18:05Z,false,true
+PER-006,DRV-1008,all_reviewers,viewer,finance.ops,2026-02-16T09:04:00Z,true,false
+PER-007,DRV-1009,all_reviewers,viewer,ops.qa,2026-02-16T09:04:20Z,true,false
+PER-008,DRV-1010,expense-intake,editor,system,2026-02-14T10:06:01Z,false,true
+PER-009,DRV-1011,finance.ops,owner,system,2026-02-16T09:15:11Z,false,false
+PER-010,DRV-1012,ops.qa,owner,system,2026-02-16T09:18:43Z,false,false
